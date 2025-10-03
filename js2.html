@@ -10,12 +10,14 @@
 <div class="q2">
 	<script language="javascript">
 		
-    ftemp1 = prompt("Enter the value of a temperature in Fahrenheit.");
-    ctemp1 = (ftemp1 - 32) * (5/9)
+    var ft1 = prompt("Enter the value of a temperature in Fahrenheit.")
+    var ftemp1 = parseInt(ft1)
+    var ctemp1 = (ftemp1 - 32) * (5/9)
     alert("Value in Celsius: " + ctemp1)
 
-    ctemp2 = prompt("Enter the value of a temperature in Celsius.");
-    ftemp2 = (ctemp2 * 9/5) + 32
+    var ct2 = prompt("Enter the value of a temperature in Celsius.")
+    var ctemp2 = parseInt(ct2)
+    var ftemp2 = (ctemp2 * 9/5) + 32
     alert("Value in Fahrenheit: " + ftemp2)
 
 </script>

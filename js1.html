@@ -10,13 +10,13 @@
 <div class="q1">
 	<script language="javascript">
 		
-    fname = prompt("What's your first name?");
-    lname = prompt("What's your last name?");
+    var fname = prompt("What's your first name?");
+    var lname = prompt("What's your last name?");
 
     alert("Your name is " + fname + " " + lname);
 
-    children = prompt("How many children do you have?");
-    if (children == 1)
+    var children = prompt("How many children do you have?");
+    if (children == "1")
         document.write("You have 1 child.")
     else
         document.write("You have " + children + " children.")
